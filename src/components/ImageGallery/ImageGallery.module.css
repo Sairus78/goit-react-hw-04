@@ -1,0 +1,18 @@
+.galleryList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  max-width: 1500px;
+  margin: 20px auto;
+}
+
+.galleryListItem {
+  width: 350px;
+}
+
+@media screen and (max-width: 360px) {
+  .galleryListItem {
+    width: 310px;
+  }
+}
