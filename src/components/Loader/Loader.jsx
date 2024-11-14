@@ -1,17 +1,15 @@
 import css from './Loader.module.css';
-import { ThreeDots } from 'react-loader-spinner';
+import { FidgetSpinner } from 'react-loader-spinner';
 const Loader = () => {
   return (
     <div className={css.loaderBlock}>
-      <ThreeDots
+      <FidgetSpinner
         visible={true}
         height="80"
         width="80"
-        color="red"
-        radius="9"
-        ariaLabel="three-dots-loading"
+        ariaLabel="fidget-spinner-loading"
         wrapperStyle={{}}
-        wrapperClass=""
+        wrapperClass="fidget-spinner-wrapper"
       />
     </div>
   );
